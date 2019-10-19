@@ -1,6 +1,12 @@
 package cars24ProgChal;
 
 import java.util.*;
+/**
+ * 
+ * @author Mrigendra
+ * Return the nodes from the tree which will form the biggest cycle when connected.
+ * Similar to problem of computing largest path in a tree.
+ */
 /*
 7
 1 2
@@ -11,7 +17,7 @@ import java.util.*;
 3 7
 
  */
-public class LargesstCycleInTreeChallenge {
+public class LargestCycleInTreeChallenge {
 
 	public static HashMap<Integer, Integer> m = new HashMap<>();
 	public static HashMap<Integer, ArrayList<Integer>> tree = new HashMap<>();
@@ -69,6 +75,10 @@ class Pair{
         this.start = start;
         this.end = end;
     }
+}
+
+class Tree {
+	
 }
 
 class Node {
